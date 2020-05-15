@@ -1,0 +1,50 @@
+
+body {
+    padding: 50px;
+  }
+  
+.jumbotron {
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: #fff;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+
+  
+  @media (max-width: 640px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .headerfont {    
+    font-size: 2rem;
+    font-weight: 500;
+    }
+
+  .mycard {
+    border: 2px solid #7977;
+    margin: 2rem ; 
+    padding: 1rem;
+    width: 20rem;
+    }
+      
+      
+  .format {
+    padding: 40px;
+    }
+        
+
+  .mtop {
+    margin-top: 40px;
+  }
+
+  
