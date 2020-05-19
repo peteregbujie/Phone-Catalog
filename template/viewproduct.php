@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>
 <div class="mycard" style="margin-top: 5rem;">
-  <img class=" card-img-top" src="smartphone.png" alt="Card image cap">
+  <img class=" card-img-top img-responsive" src="smartphone.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title"><?php echo $product->product_name; ?></h5>
     <p class="card-text"><?php echo $product->description; ?></p>

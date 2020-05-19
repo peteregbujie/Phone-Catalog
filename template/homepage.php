@@ -18,7 +18,7 @@
     <?php foreach ($products as $product) { ?>
         <div class=" card mycard">
 
-            <img class="card-img-top" src="smartphone.png" alt="Card image cap">
+            <img class="card-img-top img-responsive" src="smartphone.png" alt="Card image cap">
             <div class=" card-body">
                 <h5 class="card-title"><?php echo $product->product_name; ?></h5>
                 <p class="card-text" style="text-align: justify;"><?php echo $product->description; ?></p>
