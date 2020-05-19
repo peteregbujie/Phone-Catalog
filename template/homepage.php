@@ -14,7 +14,7 @@
 </div>
 
 <h2 style="padding-left: 3rem;"><?php echo $title; ?></h2>
-<div class="d-flex" style="margin: 2em;">
+<div class="d-flex col-sm-4 col-md-4" style="margin: 2em;">
     <?php foreach ($products as $product) { ?>
         <div class=" card mycard">
 
