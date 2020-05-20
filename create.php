@@ -6,11 +6,11 @@ $product = new Products;
 if (isset($_POST['submit'])) {
 
     $data = array();
-    $data['product_name'] = $_POST['product_name'];
-    $data['brand_id'] = $_POST['brand'];
-    $data['description'] = $_POST['description'];
-    $data['model_year'] = $_POST['model_year'];
-    $data['list_price'] = $_POST['list_price'];
+    $data['product_name'] = htmlspecialchars($_POST['product_name']);
+    $data['brand_id'] = htmlspecialchars($_POST['brand']);
+    $data['description'] = htmlspecialchars($_POST['description']);
+    $data['model_year'] = htmlspecialchars($_POST['model_year']);
+    $data['list_price'] = htmlspecialchars($_POST['list_price']);
 
     if ($product->create($data)) {
         redirect('index.php', 'New Product Added', 'success');
